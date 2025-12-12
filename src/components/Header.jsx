@@ -6,7 +6,7 @@ function Header() {
         alt="To-Do List Logo"
         className="logo"
       />
-      <h1>To-Do List</h1>
+      <h1 className="to-do-list-title">To-Do List</h1>
     </div>
   );
 }
