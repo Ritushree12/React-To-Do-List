@@ -1,16 +1,77 @@
-# React + Vite
+# To-Do List Web Application (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive **To-Do List** application built using **React**,
+**Vite**, and modern **CSS**.
+This project demonstrates effective use of functional components, hooks,
+and component-based UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Add new tasks
+- Edit and delete existing tasks
+- Mark tasks as completed
+- Custom styled checkboxes
+- Responsive UI using CSS Flexbox
+- Clean component structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Functional Components + Hooks)
+- **Vite** (Fast build tool)
+- **CSS** (Custom styling, Flexbox)
+
+---
+
+## 📁 Project Structure
+
+    src/
+     ├── components/
+     │    ├── TodoInput.jsx
+     │    ├── TodoItem.jsx
+     │    └── TodoList.jsx
+     ├── App.jsx
+     ├── main.jsx
+     └── index.css
+
+---
+
+## ▶️ Running the Project
+
+### 1. Install dependencies
+
+    npm install
+
+### 2. Start development server
+
+    npm run dev
+
+### 3. Build for production
+
+    npm run build
+
+---
+
+## 📌 How It Works
+
+- React's `useState` manages the task list.
+- Tasks are passed as props to child components.
+- CSS handles layout, spacing, and checkbox styling.
+
+---
+
+## 📷 Screenshots
+
+![Screenshot1](./public/Screenshots/image.png)
+![Screenshot2](./public/Screenshots/image2.png)
+![Screenshot3](./public/Screenshots/image3.png)
+![Screenshot4](./public/Screenshots/image4.png)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
